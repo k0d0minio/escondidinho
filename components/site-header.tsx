@@ -41,87 +41,86 @@ export function SiteHeader() {
 
   return (
     <>
-    <header
-      className={cn(
-        "fixed inset-x-0 top-0 z-50 transition-colors duration-500",
-        scrolled || open
-          ? "border-b border-border/70 bg-background/85 backdrop-blur-md"
-          : "border-b border-transparent bg-transparent",
-      )}
-    >
-      <div className="shell flex h-16 items-center justify-between gap-6 md:h-20">
-        <Link
-          href="/"
-          className="group flex flex-col leading-none"
-          aria-label={site.name}
-        >
-          <span className="display text-xl tracking-[0.18em] text-foreground uppercase transition-colors group-hover:text-gold-bright md:text-2xl">
-            Escondidinho
-          </span>
-          <span className="mt-1 font-sans text-[0.5625rem] font-semibold tracking-[0.34em] text-gold uppercase">
-            {t("common.established")}
-          </span>
-        </Link>
-
-        <nav
-          aria-label="principal"
-          className="hidden items-center gap-8 md:flex"
-        >
-          {NAV.map((item) => (
-            <Link
-              key={item.key}
-              href={item.href}
-              className={cn(
-                "font-sans text-[0.75rem] font-semibold tracking-[0.22em] uppercase transition-colors",
-                pathname === item.href
-                  ? "text-gold-bright"
-                  : "text-foreground/80 hover:text-gold-bright",
-              )}
-            >
-              {t(`nav.${item.key}`)}
-            </Link>
-          ))}
-          <LocaleSwitcher />
+      <header
+        className={cn(
+          "fixed inset-x-0 top-0 z-50 transition-colors duration-500",
+          scrolled || open
+            ? "border-b border-border/70 bg-background/85 backdrop-blur-md"
+            : "border-b border-transparent bg-transparent",
+        )}
+      >
+        <div className="shell flex h-16 items-center justify-between gap-6 md:h-20">
           <Link
-            href="/reservar"
-            className="border border-gold/60 px-5 py-2.5 font-sans text-[0.6875rem] font-semibold tracking-[0.22em] text-gold uppercase transition-colors duration-300 hover:border-gold hover:bg-gold/10 hover:text-gold-bright"
+            href="/"
+            className="group flex flex-col leading-none"
+            aria-label={site.name}
           >
-            {t("nav.reserve")}
+            <span className="display text-xl tracking-[0.18em] text-foreground uppercase transition-colors group-hover:text-gold-bright md:text-2xl">
+              Escondidinho
+            </span>
+            <span className="mt-1 font-sans text-[0.5625rem] font-semibold tracking-[0.34em] text-gold uppercase">
+              {t("common.established")}
+            </span>
           </Link>
-        </nav>
 
-        <button
-          type="button"
-          onClick={() => setOpen((v) => !v)}
-          aria-expanded={open}
-          aria-label={open ? t("common.closeMenu") : t("common.openMenu")}
-          className="relative flex size-10 items-center justify-center md:hidden"
-        >
-          <span
-            className={cn(
-              "absolute h-px w-6 bg-foreground transition-transform duration-300",
-              open ? "rotate-45" : "-translate-y-1.5",
-            )}
-          />
-          <span
-            className={cn(
-              "absolute h-px w-6 bg-foreground transition-opacity duration-300",
-              open && "opacity-0",
-            )}
-          />
-          <span
-            className={cn(
-              "absolute h-px w-6 bg-foreground transition-transform duration-300",
-              open ? "-rotate-45" : "translate-y-1.5",
-            )}
-          />
-        </button>
-      </div>
+          <nav
+            aria-label="principal"
+            className="hidden items-center gap-8 md:flex"
+          >
+            {NAV.map((item) => (
+              <Link
+                key={item.key}
+                href={item.href}
+                className={cn(
+                  "font-sans text-[0.75rem] font-semibold tracking-[0.22em] uppercase transition-colors",
+                  pathname === item.href
+                    ? "text-gold-bright"
+                    : "text-foreground/80 hover:text-gold-bright",
+                )}
+              >
+                {t(`nav.${item.key}`)}
+              </Link>
+            ))}
+            <LocaleSwitcher />
+            <Link
+              href="/reservar"
+              className="border border-gold/60 px-5 py-2.5 font-sans text-[0.6875rem] font-semibold tracking-[0.22em] text-gold uppercase transition-colors duration-300 hover:border-gold hover:bg-gold/10 hover:text-gold-bright"
+            >
+              {t("nav.reserve")}
+            </Link>
+          </nav>
 
-    </header>
+          <button
+            type="button"
+            onClick={() => setOpen((v) => !v)}
+            aria-expanded={open}
+            aria-label={open ? t("common.closeMenu") : t("common.openMenu")}
+            className="relative flex size-10 items-center justify-center md:hidden"
+          >
+            <span
+              className={cn(
+                "absolute h-px w-6 bg-foreground transition-transform duration-300",
+                open ? "rotate-45" : "-translate-y-1.5",
+              )}
+            />
+            <span
+              className={cn(
+                "absolute h-px w-6 bg-foreground transition-opacity duration-300",
+                open && "opacity-0",
+              )}
+            />
+            <span
+              className={cn(
+                "absolute h-px w-6 bg-foreground transition-transform duration-300",
+                open ? "-rotate-45" : "translate-y-1.5",
+              )}
+            />
+          </button>
+        </div>
+      </header>
 
-    {/* Sibling of <header>: its backdrop-filter would otherwise become the
-        containing block for this fixed overlay and collapse it to 0 height. */}
+      {/* Sibling of <header>: its backdrop-filter would otherwise become the
+          containing block for this fixed overlay and collapse it to 0 height. */}
       <AnimatePresence>
         {open && (
           <motion.div

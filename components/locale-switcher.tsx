@@ -14,11 +14,7 @@ export function LocaleSwitcher() {
   const params = useParams();
 
   return (
-    <div
-      role="group"
-      className="flex items-center gap-1 font-sans text-[0.6875rem] font-semibold tracking-[0.18em] uppercase"
-      aria-label={t("label")}
-    >
+    <div className="flex items-center gap-1 font-sans text-[0.6875rem] font-semibold tracking-[0.18em] uppercase">
       {routing.locales.map((l, i) => (
         <span key={l} className="flex items-center gap-1">
           {i > 0 && (

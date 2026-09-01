@@ -28,7 +28,10 @@ const schema = z.object({
   notes: z.string().trim().max(1000).optional().default(""),
 });
 
-function openOn(date: string, time: string): "ok" | "dateClosed" | "timeClosed" {
+function openOn(
+  date: string,
+  time: string,
+): "ok" | "dateClosed" | "timeClosed" {
   const day = new Date(`${date}T12:00:00Z`).getUTCDay();
   // Closed Monday (1) and Tuesday (2).
   if (day === 1 || day === 2) return "dateClosed";
@@ -44,9 +47,16 @@ export async function submitReservation(
   formData: FormData,
 ): Promise<ReserveState> {
   const raw = Object.fromEntries(
-    ["name", "email", "phone", "partySize", "date", "time", "area", "notes"].map(
-      (k) => [k, String(formData.get(k) ?? "")],
-    ),
+    [
+      "name",
+      "email",
+      "phone",
+      "partySize",
+      "date",
+      "time",
+      "area",
+      "notes",
+    ].map((k) => [k, String(formData.get(k) ?? "")]),
   );
 
   // Honeypot: bots fill it, people never see it.
@@ -76,7 +86,8 @@ export async function submitReservation(
     return { status: "error", values: raw };
   }
 
-  const { name, email, phone, partySize, date, time, area, notes } = parsed.data;
+  const { name, email, phone, partySize, date, time, area, notes } =
+    parsed.data;
   const party = partySize === "9" ? "9+" : partySize;
 
   const lines = [

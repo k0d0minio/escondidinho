@@ -100,8 +100,16 @@ export const bar: BarSection[] = [
             detail: "Syrah, Castelão, Touriga Nacional · 13,5% vol.",
             price: "14,90 €",
           },
-          { name: "Quinto Elemento", detail: "Syrah · 14% vol.", price: "29,00 €" },
-          { name: "Página", detail: "Touriga Nacional · 13% vol.", price: "27,40 €" },
+          {
+            name: "Quinto Elemento",
+            detail: "Syrah · 14% vol.",
+            price: "29,00 €",
+          },
+          {
+            name: "Página",
+            detail: "Touriga Nacional · 13% vol.",
+            price: "27,40 €",
+          },
         ],
       },
       {
@@ -141,7 +149,8 @@ export const bar: BarSection[] = [
           },
           {
             name: "Lusitano Seleção",
-            detail: "Cabernet Sauvignon, Alicante Bouschet, Aragonez · 13% vol.",
+            detail:
+              "Cabernet Sauvignon, Alicante Bouschet, Aragonez · 13% vol.",
             price: "16,00 €",
           },
           {
@@ -161,7 +170,8 @@ export const bar: BarSection[] = [
           },
           {
             name: "Serrado",
-            detail: "Touriga Nacional, Alfrocheiro, Tinta Roriz, Jaen · 14,5% vol.",
+            detail:
+              "Touriga Nacional, Alfrocheiro, Tinta Roriz, Jaen · 14,5% vol.",
             price: "15,00 €",
           },
         ],
@@ -171,7 +181,8 @@ export const bar: BarSection[] = [
         items: [
           {
             name: "Duas Quintas",
-            detail: "Tinta Roriz, Touriga Franca, Touriga Nacional · 14,5% vol.",
+            detail:
+              "Tinta Roriz, Touriga Franca, Touriga Nacional · 14,5% vol.",
             price: "28,70 €",
           },
           {
@@ -228,7 +239,8 @@ export const bar: BarSection[] = [
         items: [
           {
             name: "Serrado",
-            detail: "Malvasia Fina, Cerceal Branco, Encruzado, Bical · 13% vol.",
+            detail:
+              "Malvasia Fina, Cerceal Branco, Encruzado, Bical · 13% vol.",
             price: "15,00 €",
           },
         ],
