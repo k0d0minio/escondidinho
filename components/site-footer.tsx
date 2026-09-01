@@ -1,6 +1,6 @@
 import { MapPin, Phone } from "lucide-react";
-import { getTranslations } from "next-intl/server";
 import Image from "next/image";
+import { getTranslations } from "next-intl/server";
 import { FacebookIcon, InstagramIcon } from "@/components/social-icons";
 import { Link } from "@/i18n/navigation";
 import { site } from "@/lib/site";
@@ -87,7 +87,10 @@ export async function SiteFooter() {
           <h2 className="eyebrow">{t("footer.contactTitle")}</h2>
           <ul className="mt-5 space-y-3 text-sm text-muted-foreground">
             <li className="flex gap-2.5">
-              <MapPin aria-hidden className="mt-0.5 size-4 shrink-0 text-gold" />
+              <MapPin
+                aria-hidden
+                className="mt-0.5 size-4 shrink-0 text-gold"
+              />
               <a
                 href={site.mapsUrl}
                 target="_blank"
@@ -100,7 +103,10 @@ export async function SiteFooter() {
               </a>
             </li>
             <li className="flex gap-2.5">
-              <Phone aria-hidden className="mt-0.5 size-4 shrink-0 text-gold" />
+              <Phone
+                aria-hidden
+                className="mt-0.5 size-4 shrink-0 text-gold"
+              />
               <a
                 href={`tel:${site.phone}`}
                 className="transition-colors hover:text-gold-bright"

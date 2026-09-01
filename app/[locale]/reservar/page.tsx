@@ -38,19 +38,25 @@ export default async function ReservePage({ params }: Props) {
               <h2 className="eyebrow">{t("reserve.hoursTitle")}</h2>
               <dl className="mt-5 space-y-4 text-sm">
                 <div>
-                  <dt className="text-foreground/80">{t("hours.lunchLabel")}</dt>
+                  <dt className="text-foreground/80">
+                    {t("hours.lunchLabel")}
+                  </dt>
                   <dd className="display mt-0.5 text-lg text-gold-bright">
                     {t("hours.lunchValue")}
                   </dd>
                 </div>
                 <div>
-                  <dt className="text-foreground/80">{t("hours.dinnerLabel")}</dt>
+                  <dt className="text-foreground/80">
+                    {t("hours.dinnerLabel")}
+                  </dt>
                   <dd className="display mt-0.5 text-lg text-gold-bright">
                     {t("hours.dinnerValue")}
                   </dd>
                 </div>
                 <div>
-                  <dt className="text-foreground/80">{t("hours.closedLabel")}</dt>
+                  <dt className="text-foreground/80">
+                    {t("hours.closedLabel")}
+                  </dt>
                   <dd className="mt-0.5 text-muted-foreground">
                     {t("hours.closedValue")}
                   </dd>

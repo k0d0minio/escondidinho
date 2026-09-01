@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { getTranslations, setRequestLocale } from "next-intl/server";
 import Image from "next/image";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { CtaLink } from "@/components/cta-link";
 import { FadeIn } from "@/components/motion/fade-in";
 import { PageHero } from "@/components/page-hero";
@@ -119,7 +119,9 @@ export default async function MenuPage({ params }: Props) {
       </div>
 
       <FadeIn className="shell mt-20 max-w-4xl border-t border-border/70 pt-8 text-center">
-        <p className="text-sm text-muted-foreground">{t("menu.allergensNote")}</p>
+        <p className="text-sm text-muted-foreground">
+          {t("menu.allergensNote")}
+        </p>
         <CtaLink href="/bar" variant="ghost" className="mt-6">
           {t("menu.barCta")} →
         </CtaLink>

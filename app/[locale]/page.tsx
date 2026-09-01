@@ -1,6 +1,6 @@
 import { MapPin, Phone } from "lucide-react";
-import { getTranslations, setRequestLocale } from "next-intl/server";
 import Image from "next/image";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { CtaLink } from "@/components/cta-link";
 import { Hero } from "@/components/home/hero";
 import { FadeIn } from "@/components/motion/fade-in";
@@ -50,7 +50,11 @@ export default async function HomePage({ params }: Props) {
       addressCountry: site.address.country,
     },
     openingHoursSpecification: schemaOpeningHours,
-    sameAs: [site.social.facebook, site.social.instagram, site.social.tripadvisor],
+    sameAs: [
+      site.social.facebook,
+      site.social.instagram,
+      site.social.tripadvisor,
+    ],
   };
 
   return (
@@ -66,7 +70,10 @@ export default async function HomePage({ params }: Props) {
       {/* Story */}
       <section className="shell grid items-center gap-14 py-24 md:py-36 lg:grid-cols-[1fr_1.1fr] lg:gap-24">
         <FadeIn className="relative mx-auto w-full max-w-md lg:max-w-none">
-          <div className="absolute -inset-4 border border-gold/25" aria-hidden />
+          <div
+            className="absolute -inset-4 border border-gold/25"
+            aria-hidden
+          />
           <Image
             src="/images/logo-slate.jpg"
             alt={t("home.story.title")}
@@ -188,7 +195,10 @@ export default async function HomePage({ params }: Props) {
               </FadeIn>
               <FadeIn delay={0.15} className="mt-10 space-y-6 text-sm">
                 <div className="flex gap-3">
-                  <MapPin aria-hidden className="mt-0.5 size-4 shrink-0 text-gold" />
+                  <MapPin
+                    aria-hidden
+                    className="mt-0.5 size-4 shrink-0 text-gold"
+                  />
                   <div>
                     <p className="font-sans text-[0.625rem] font-semibold tracking-[0.24em] text-muted-foreground uppercase">
                       {t("home.visit.addressLabel")}
@@ -208,7 +218,10 @@ export default async function HomePage({ params }: Props) {
                   </div>
                 </div>
                 <div className="flex gap-3">
-                  <Phone aria-hidden className="mt-0.5 size-4 shrink-0 text-gold" />
+                  <Phone
+                    aria-hidden
+                    className="mt-0.5 size-4 shrink-0 text-gold"
+                  />
                   <div>
                     <p className="font-sans text-[0.625rem] font-semibold tracking-[0.24em] text-muted-foreground uppercase">
                       {t("home.visit.phoneLabel")}
@@ -228,19 +241,25 @@ export default async function HomePage({ params }: Props) {
                 <h3 className="eyebrow">{t("hours.title")}</h3>
                 <dl className="mt-6 space-y-5 border-l border-gold/30 pl-6 text-sm">
                   <div>
-                    <dt className="text-foreground/80">{t("hours.lunchLabel")}</dt>
+                    <dt className="text-foreground/80">
+                      {t("hours.lunchLabel")}
+                    </dt>
                     <dd className="mt-0.5 display text-xl text-gold-bright">
                       {t("hours.lunchValue")}
                     </dd>
                   </div>
                   <div>
-                    <dt className="text-foreground/80">{t("hours.dinnerLabel")}</dt>
+                    <dt className="text-foreground/80">
+                      {t("hours.dinnerLabel")}
+                    </dt>
                     <dd className="mt-0.5 display text-xl text-gold-bright">
                       {t("hours.dinnerValue")}
                     </dd>
                   </div>
                   <div>
-                    <dt className="text-foreground/80">{t("hours.closedLabel")}</dt>
+                    <dt className="text-foreground/80">
+                      {t("hours.closedLabel")}
+                    </dt>
                     <dd className="mt-0.5 text-muted-foreground">
                       {t("hours.closedValue")}
                     </dd>

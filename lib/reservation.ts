@@ -17,7 +17,7 @@ export const DINNER_TIMES = [
   "22:00",
 ] as const;
 
-export const TIME_SLOTS = [...LUNCH_TIMES, ...DINNER_TIMES];
+export const TIME_SLOTS: readonly string[] = [...LUNCH_TIMES, ...DINNER_TIMES];
 
 export const AREAS = ["any", "upstairs", "downstairs", "terrace"] as const;
 export type Area = (typeof AREAS)[number];
@@ -29,4 +29,14 @@ export const AREA_LABELS_PT: Record<Area, string> = {
   terrace: "Esplanada",
 };
 
-export const PARTY_SIZES = ["1", "2", "3", "4", "5", "6", "7", "8", "9"] as const;
+export const PARTY_SIZES = [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+] as const;

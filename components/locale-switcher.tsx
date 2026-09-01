@@ -1,9 +1,9 @@
 "use client";
 
-import { useLocale, useTranslations } from "next-intl";
 import { useParams } from "next/navigation";
-import { routing } from "@/i18n/routing";
+import { useLocale, useTranslations } from "next-intl";
 import { usePathname, useRouter } from "@/i18n/navigation";
+import { routing } from "@/i18n/routing";
 import { cn } from "@/lib/utils";
 
 export function LocaleSwitcher() {
@@ -15,12 +15,17 @@ export function LocaleSwitcher() {
 
   return (
     <div
+      role="group"
       className="flex items-center gap-1 font-sans text-[0.6875rem] font-semibold tracking-[0.18em] uppercase"
       aria-label={t("label")}
     >
       {routing.locales.map((l, i) => (
         <span key={l} className="flex items-center gap-1">
-          {i > 0 && <span aria-hidden className="text-border">/</span>}
+          {i > 0 && (
+            <span aria-hidden className="text-border">
+              /
+            </span>
+          )}
           <button
             type="button"
             disabled={l === locale}

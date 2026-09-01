@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { getTranslations, setRequestLocale } from "next-intl/server";
 import Image from "next/image";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { FadeIn } from "@/components/motion/fade-in";
 import { Ornament } from "@/components/ornament";
 import { PageHero } from "@/components/page-hero";
