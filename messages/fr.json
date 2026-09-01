@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "home": {
+      "title": "Restaurante Escondidinho | Mafra",
+      "description": "Cuisine fusion et plats signature dans l'une des plus anciennes ruelles de Mafra, face au Palais National. Depuis 2009 — réservations : +351 261 814 983."
+    },
+    "menu": {
+      "title": "Menu",
+      "description": "Entrées, poisson, viande et plats végétariens — la carte fusion du Restaurante Escondidinho, à Mafra."
+    },
+    "bar": {
+      "title": "Bar & Cave",
+      "description": "Apéritifs, bières, spiritueux et une carte de vins portugais de Lisboa au Douro — le bar du Restaurante Escondidinho, à Mafra."
+    },
+    "team": {
+      "title": "L'Équipe",
+      "description": "La brigade de cuisine et l'équipe de salle du Restaurante Escondidinho, à Mafra."
+    },
+    "reserve": {
+      "title": "Réservations",
+      "description": "Réservez votre table au Restaurante Escondidinho, à Mafra. Deux salles et une terrasse — 36 places à l'intérieur."
+    },
+    "privacy": { "title": "Politique de Confidentialité" },
+    "accessibility": { "title": "Déclaration d'Accessibilité" }
+  },
+  "nav": {
+    "home": "Accueil",
+    "menu": "Menu",
+    "bar": "Bar",
+    "team": "Équipe",
+    "reserve": "Réserver"
+  },
+  "common": {
+    "reserveCta": "Réserver une table",
+    "viewMenu": "Voir la carte",
+    "established": "Depuis 2009 · Mafra",
+    "menuCta": "Carte complète",
+    "directions": "Itinéraire",
+    "openMenu": "Ouvrir le menu de navigation",
+    "closeMenu": "Fermer le menu de navigation"
+  },
+  "hero": {
+    "kicker": "Cuisine fusion · Plats signature",
+    "tagline": "Caché dans l'une des plus anciennes ruelles de Mafra, face au Palais National, depuis 2009.",
+    "scroll": "Défiler"
+  },
+  "hours": {
+    "title": "Horaires",
+    "subtitle": "Service du déjeuner et du dîner",
+    "lunchLabel": "Déjeuner · du mercredi au dimanche",
+    "lunchValue": "12h00 – 15h30",
+    "dinnerLabel": "Dîner · du mercredi au samedi",
+    "dinnerValue": "19h30 – 22h30",
+    "closedLabel": "Fermé",
+    "closedValue": "Dimanche soir et lundi"
+  },
+  "home": {
+    "story": {
+      "eyebrow": "Notre histoire",
+      "title": "Un repas préparé autrement",
+      "body": "Nous avons ouvert ce restaurant dans l'une des plus anciennes ruelles de Mafra, juste en face du Palais National, sous le nom d'«Escondidinho» parce qu'il est vraiment caché — un nom qui remonte à plusieurs générations, plus précisément à 1943. Nous enveloppons nos clients dans un cadre confortable et beau : les sons et les parfums qui montent de la cuisine, le décor créatif, les saveurs qui mettent l'eau à la bouche. À l'intérieur, la musique et le calme préparent l'esprit à un repas qui se savoure lentement. Deux salles séparées, 36 places au total. Pour accompagner, une belle carte de vins — et, toujours servis avec le sourire, nous attendons votre visite.",
+      "signature": "Leandra Freire",
+      "signatureRole": "Chef & Propriétaire",
+      "fact1943": "Le nom date de 1943",
+      "factSeats": "36 places · deux salles",
+      "factPalace": "Face au Palais National"
+    },
+    "signatures": {
+      "eyebrow": "De la carte",
+      "title": "Plats signature",
+      "cta": "Carte complète"
+    },
+    "wine": {
+      "eyebrow": "Bar & Cave",
+      "quote": "Une carte de vins portugais, de Lisboa au Douro — toujours servie avec le sourire.",
+      "cta": "Découvrir la cave"
+    },
+    "visit": {
+      "eyebrow": "Venez nous voir",
+      "title": "Dans une ruelle cachée, face au Palais",
+      "addressLabel": "Adresse",
+      "phoneLabel": "Téléphone",
+      "followUs": "Suivez-nous sur les réseaux sociaux"
+    }
+  },
+  "menu": {
+    "title": "Menu",
+    "serviceNote": "Déjeuner du mercredi au dimanche, 12h00–15h30 · Dîner du mercredi au samedi, 19h30–22h30",
+    "sections": {
+      "starters": {
+        "title": "Entrées",
+        "intro": "Goûtez aux délicieuses entrées de notre carte, préparées avec soin pour plaire à votre palais. Préparez-vous à un voyage gastronomique chez Escondidinho — et revenez souvent pour en goûter davantage."
+      },
+      "fish": {
+        "title": "Poisson",
+        "intro": "Des poissons préparés avec soin pour plaire à votre palais."
+      },
+      "meat": {
+        "title": "Viande",
+        "intro": "Des viandes soigneusement sélectionnées pour plaire à votre palais."
+      },
+      "vegetarian": {
+        "title": "Végétarien",
+        "intro": "Des légumes frais, cuisinés avec soin pour vous."
+      }
+    },
+    "dishes": {
+      "burrata": "Burrata avec pain grillé et bacon, arrosée d'huile d'olive truffée et de vinaigre balsamique.",
+      "risottoCamarao": "Un plat riche et réconfortant, où la texture crémeuse du risotto rencontre des crevettes juteuses à la moqueca brésilienne.",
+      "bacalhauNatas": "Un classique portugais : morue effilochée et revenue, mêlée aux pommes de terre, à la béchamel et à la crème. Crémeux et savoureux.",
+      "ovosRotos": "Un lit de frites, des œufs au plat au jaune crémeux, presunto, jambon et linguiça — une véritable explosion de saveurs.",
+      "tagyke": "Une fusion inspirée de trois influences — taco, gyros et kebab —, d'où son nom. Le plat signature du Chef Hélder : blanc de poulet halal sauté aux poivrons et à l'oignon, servi avec des frites dorées, une salade fraîche et une sauce aux épices.",
+      "arrozDePato": "Un grand classique portugais, terminé au four : le riz au canard prend une croûte délicatement dorée, garnie de tranches de chouriço.",
+      "bifeCortador": "Faux-filet surmonté d'un œuf au plat. Servi avec des frites.",
+      "bife3Pimentas": "Faux-filet à la sauce aux trois poivres — vert, rose et noir. Servi avec des pommes de terre.",
+      "bifeReducaoVinho": "Faux-filet avec une réduction de vins de Madère et de Porto. Servi avec pommes de terre et chou rouge en pickles.",
+      "francesinha": "Des couches de pain de mie garnies de rumsteck, linguiça, jambon, saucisse toscane et fromage Limiano, couvertes d'un œuf et nappées d'une sauce piquante spéciale.",
+      "alhoFrancesBras": "Poireau finement émincé et revenu avec oignon, ail et pommes paille, lié aux œufs battus et au persil frais.",
+      "tagykeVegetariano": "La version végétarienne de notre plat signature : soja sauté aux poivrons et à l'oignon, frites dorées, salade fraîche et sauce aux épices.",
+      "risottoFunghi": "Cuit lentement dans un bouillon jusqu'à devenir crémeux, puis marié à une sélection de champignons frais. Des saveurs délicates et aromatiques."
+    },
+    "legendTitle": "Allergènes & régimes",
+    "allergens": {
+      "gluten": "Gluten",
+      "milk": "Lait",
+      "eggs": "Œufs",
+      "shellfish": "Crustacés",
+      "mollusc": "Mollusques",
+      "fish": "Poisson",
+      "nuts": "Fruits à coque",
+      "peanut": "Arachide",
+      "soy": "Soja"
+    },
+    "diet": {
+      "vegan": "Végétalien",
+      "vegetarian": "Végétarien",
+      "glutenFree": "Sans gluten"
+    },
+    "spice": {
+      "1": "Légèrement épicé",
+      "2": "Moyennement épicé"
+    },
+    "allergensNote": "Une allergie ou une restriction alimentaire ? Dites-le-nous en réservant — la cuisine vous conseillera avec plaisir.",
+    "barCta": "Voir aussi le bar & la cave"
+  },
+  "bar": {
+    "title": "Bar & Cave",
+    "intro": "Des apéritifs pour commencer, une carte de vins portugais de Lisboa au Douro, et des digestifs qui donnent envie de rester.",
+    "vatNote": "Prix TVA incluse au taux légal en vigueur.",
+    "sections": {
+      "aperitifs": "Apéritifs",
+      "waters": "Eaux",
+      "softDrinks": "Jus & Sodas",
+      "beers": "Bières",
+      "redWines": "Vins Rouges",
+      "whiteWines": "Vins Blancs",
+      "greenWines": "Vinho Verde",
+      "roseWines": "Vins Rosés",
+      "sparkling": "Effervescents",
+      "spirits": "Spiritueux",
+      "whisky": "Whisky",
+      "coffee": "Café & Thé"
+    },
+    "notes": {
+      "wineByGlass": "Vin au verre — 4,50 € · demandez à l'équipe le vin disponible.",
+      "bottleSizes": "Bouteille 750 ml · demi-bouteille 375 ml lorsque indiqué."
+    },
+    "menuCta": "Voir la carte de cuisine"
+  },
+  "team": {
+    "title": "L'Équipe",
+    "intro": "Soyez les bienvenus ! C'est avec beaucoup de joie que nous vous recevons — souriez, respirez et profitez de votre expérience dans notre restaurant. Nous espérons que cette maison deviendra la vôtre pour de longues années !",
+    "introSignature": "Leandra Freire",
+    "groups": {
+      "kitchen": "Brigade de cuisine",
+      "front": "Salle et bar"
+    },
+    "members": {
+      "leandra": { "role": "Chef & Propriétaire" },
+      "dorisa": { "role": "Assistante de cuisine" },
+      "pedro": { "role": "Barman" }
+    },
+    "memorial": {
+      "label": "En mémoire",
+      "role": "Chef",
+      "body": "On dit que cuisiner est un art et une passion. Et je ne saurais être plus d'accord : chaque fois que je prépare un plat, je le fais avec la même envie qu'à mes débuts, quand j'expérimentais pour moi et pour mes amis. Cuisiner, c'est comme peindre un tableau ou composer une chanson — colorer une assiette avec les couleurs que la nature nous donne, et quelle immense palette j'ai à ma disposition chaque jour. Le son de la viande sur le gril, l'oignon et les poivrons qui sautent sur la plaque pendant que la viande émincée du tagyke devient dorée, le fromage qui fond sur les francesinhas à la sortie du four, l'odeur incomparable des grillades au charbon ou des herbes fraîches qui rafraîchissent un plat, comme des coups de pinceau. Il y a tant à faire avec cette envie de créer, recréer, innover — se salir les mains sans peur, sentir les ingrédients, mettre la main à la pâte. Cuisiner est toujours une expérience unique, que je conseille à tout le monde.",
+      "signature": "Hélder Freire"
+    }
+  },
+  "reserve": {
+    "title": "Réservez votre table",
+    "intro": "Indiquez vos préférences et nous ferons de notre mieux pour vous choisir la meilleure table.",
+    "form": {
+      "name": "Nom",
+      "namePlaceholder": "Votre nom",
+      "email": "Email",
+      "emailPlaceholder": "votre@email.com",
+      "phone": "Téléphone",
+      "phonePlaceholder": "+351 …",
+      "partySize": "Convives",
+      "partySizeOption": "{count, plural, =1 {1 personne} other {# personnes}}",
+      "partySizeMore": "Plus de 8 — précisez dans les notes",
+      "date": "Date",
+      "time": "Heure",
+      "area": "Salle préférée",
+      "areaAny": "Indifférent",
+      "areaUpstairs": "Salle du haut",
+      "areaDownstairs": "Salle du bas",
+      "areaTerrace": "Terrasse",
+      "notes": "Notes",
+      "notesPlaceholder": "Allergies, occasions spéciales, chaise bébé…",
+      "submit": "Demander une réservation",
+      "submitting": "Envoi…"
+    },
+    "validation": {
+      "name": "Indiquez votre nom.",
+      "email": "Indiquez un email valide.",
+      "phone": "Indiquez un numéro de téléphone.",
+      "date": "Choisissez une date.",
+      "dateClosed": "Nous sommes fermés ce jour-là — choisissez du mercredi au dimanche.",
+      "time": "Choisissez une heure.",
+      "timeClosed": "En dehors des heures de service — déjeuner 12h00–15h30, dîner 19h30–22h30."
+    },
+    "success": {
+      "title": "Demande envoyée",
+      "body": "Nous avons bien reçu votre demande de réservation. Elle n'est confirmée qu'après notre appel — à très bientôt !"
+    },
+    "error": {
+      "title": "Envoi impossible",
+      "body": "Une erreur s'est produite lors de l'envoi. Réessayez ou appelez-nous : {phone}."
+    },
+    "confirmNote": "La réservation n'est confirmée qu'après notre contact.",
+    "phoneAlt": "Vous préférez nous parler ?",
+    "hoursTitle": "Heures de service"
+  },
+  "footer": {
+    "tagline": "Cuisine fusion et plats signature, cachés face au Palais National de Mafra depuis 2009.",
+    "navTitle": "Navigation",
+    "contactTitle": "Contact",
+    "hoursTitle": "Horaires",
+    "followTitle": "Suivez-nous",
+    "copyright": "© 2009–{year} Restaurante Escondidinho · {legalName}",
+    "privacy": "Politique de confidentialité",
+    "accessibility": "Déclaration d'accessibilité"
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "body": "Cette page est vraiment bien cachée — nous ne l'avons pas trouvée.",
+    "cta": "Retour à l'accueil"
+  },
+  "localeSwitcher": {
+    "label": "Langue",
+    "pt": "Português",
+    "en": "English",
+    "fr": "Français"
+  },
+  "legal": {
+    "privacy": {
+      "title": "Politique de Confidentialité",
+      "updated": "Dernière mise à jour : septembre 2026",
+      "sections": {
+        "intro": "Cette politique décrit comment le Restaurante Escondidinho ({legalName}) traite les données personnelles recueillies via ce site.",
+        "collectTitle": "Quelles données recueillons-nous",
+        "collect": "Nous ne recueillons que les données que vous nous envoyez via le formulaire de réservation : nom, email, téléphone, date et heure souhaitées, nombre de convives, salle préférée et les notes que vous choisissez d'ajouter.",
+        "useTitle": "À quoi servent-elles",
+        "use": "Ces données servent exclusivement à répondre à votre demande de réservation et à vous contacter pour la confirmer. Pas de marketing, pas de partage avec des tiers, pas de profilage.",
+        "storeTitle": "Où vont les données",
+        "store": "Votre demande nous est remise par email via le service d'envoi Resend. Ce site ne conserve aucune base de données clients et n'utilise aucun cookie de suivi.",
+        "rightsTitle": "Vos droits",
+        "rights": "Vous pouvez à tout moment demander l'accès, la correction ou la suppression de vos données. Contactez-nous par email à {privacyEmail} ou par courrier à {address}.",
+        "changesTitle": "Modifications de cette politique",
+        "changes": "Nous pouvons mettre à jour cette politique si nécessaire. Les modifications sont publiées sur cette page."
+      }
+    },
+    "accessibility": {
+      "title": "Déclaration d'Accessibilité",
+      "sections": {
+        "intro": "Ceci est la déclaration d'accessibilité du site du Restaurante Escondidinho, sous la responsabilité de {legalName}.",
+        "commitmentTitle": "Notre engagement",
+        "commitment": "Nous voulons que ce site soit utilisable par toutes et tous. Nous visons la conformité aux Règles pour l'accessibilité des contenus Web (WCAG) 2.1, niveau AA : navigation au clavier, textes alternatifs sur les images, contrastes suffisants et structure sémantique des pages.",
+        "feedbackTitle": "Vos retours",
+        "feedback": "Vos retours sur l'accessibilité de ce site sont les bienvenus. Si vous rencontrez un obstacle, dites-le-nous :",
+        "feedbackPhone": "Téléphone : {phone}",
+        "feedbackEmail": "Email : {email}",
+        "feedbackAddress": "Adresse : {address}",
+        "response": "Nous nous efforçons de répondre sous 2 jours ouvrés."
+      }
+    }
+  }
+}
