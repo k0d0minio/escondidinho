@@ -1,0 +1,109 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-manrope);
+  --font-display: var(--font-cormorant);
+  --font-heading: var(--font-cormorant);
+  --color-gold: var(--gold);
+  --color-gold-bright: var(--gold-bright);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+/*
+ * Escondidinho — one deliberate theme: candlelit near-black, warm parchment
+ * text, brass-gold accents. No light mode; the room is always evening.
+ */
+:root {
+  --background: oklch(0.155 0.008 75);
+  --foreground: oklch(0.915 0.02 85);
+  --card: oklch(0.195 0.01 75);
+  --card-foreground: oklch(0.915 0.02 85);
+  --popover: oklch(0.215 0.012 75);
+  --popover-foreground: oklch(0.915 0.02 85);
+  --primary: oklch(0.74 0.09 85);
+  --primary-foreground: oklch(0.17 0.012 75);
+  --secondary: oklch(0.23 0.012 78);
+  --secondary-foreground: oklch(0.915 0.02 85);
+  --muted: oklch(0.225 0.012 78);
+  --muted-foreground: oklch(0.665 0.028 82);
+  --accent: oklch(0.25 0.015 80);
+  --accent-foreground: oklch(0.915 0.02 85);
+  --destructive: oklch(0.6 0.19 25);
+  --border: oklch(0.28 0.018 80);
+  --input: oklch(0.30 0.018 80);
+  --ring: oklch(0.74 0.09 85);
+  --radius: 0rem;
+  --gold: oklch(0.74 0.09 85);
+  --gold-bright: oklch(0.84 0.09 88);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    @apply font-sans scroll-smooth;
+    color-scheme: dark;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  ::selection {
+    background: color-mix(in oklch, var(--gold) 30%, transparent);
+    color: var(--foreground);
+  }
+}
+
+@utility shell {
+  @apply mx-auto w-full max-w-6xl px-5 sm:px-8 lg:px-10;
+}
+
+@utility eyebrow {
+  @apply font-sans text-[0.6875rem] font-semibold uppercase tracking-[0.28em] text-gold;
+}
+
+@utility display {
+  font-family: var(--font-cormorant);
+  @apply font-medium tracking-[0.01em];
+}
+
+/* Thin brass rule that fades out at both ends */
+@utility rule-gold {
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    color-mix(in oklch, var(--gold) 55%, transparent) 20%,
+    color-mix(in oklch, var(--gold) 55%, transparent) 80%,
+    transparent
+  );
+}

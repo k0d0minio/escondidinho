@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "home": {
+      "title": "Restaurante Escondidinho | Mafra",
+      "description": "Cozinha de fusão e pratos de assinatura numa das travessas mais antigas de Mafra, em frente ao Palácio Nacional. Est. 2009 — reservas: 261 814 983."
+    },
+    "menu": {
+      "title": "Menu",
+      "description": "Entradas, peixe, carne e pratos vegetarianos — o menu de fusão do Restaurante Escondidinho, em Mafra."
+    },
+    "bar": {
+      "title": "Bar & Garrafeira",
+      "description": "Aperitivos, cervejas, espirituosas e uma carta de vinhos portugueses de Lisboa ao Douro — o bar do Restaurante Escondidinho, em Mafra."
+    },
+    "team": {
+      "title": "A Equipa",
+      "description": "A brigada de cozinha e a equipa de sala do Restaurante Escondidinho, em Mafra."
+    },
+    "reserve": {
+      "title": "Reservas",
+      "description": "Reserve a sua mesa no Restaurante Escondidinho, em Mafra. Duas salas e esplanada — 36 lugares no interior."
+    },
+    "privacy": { "title": "Política de Privacidade" },
+    "accessibility": { "title": "Declaração de Acessibilidade" }
+  },
+  "nav": {
+    "home": "Início",
+    "menu": "Menu",
+    "bar": "Bar",
+    "team": "Equipa",
+    "reserve": "Reservar"
+  },
+  "common": {
+    "reserveCta": "Reservar mesa",
+    "viewMenu": "Ver o menu",
+    "established": "Est. 2009 · Mafra",
+    "menuCta": "Menu completo",
+    "directions": "Como chegar",
+    "openMenu": "Abrir menu de navegação",
+    "closeMenu": "Fechar menu de navegação"
+  },
+  "hero": {
+    "kicker": "Cozinha de fusão · Pratos de assinatura",
+    "tagline": "Escondido numa das travessas mais antigas de Mafra, em frente ao Palácio Nacional, desde 2009.",
+    "scroll": "Descer"
+  },
+  "hours": {
+    "title": "Horário",
+    "subtitle": "Serviço de almoço e jantar",
+    "lunchLabel": "Almoço · Quarta a Domingo",
+    "lunchValue": "12:00 – 15:30",
+    "dinnerLabel": "Jantar · Quarta a Sábado",
+    "dinnerValue": "19:30 – 22:30",
+    "closedLabel": "Encerrado",
+    "closedValue": "Domingo ao jantar e Segunda-feira"
+  },
+  "home": {
+    "story": {
+      "eyebrow": "A nossa história",
+      "title": "Refeição preparada de uma forma diferente",
+      "body": "Abri este restaurante numa das travessas mais antigas de Mafra, mesmo em frente ao Palácio Nacional, com o nome de «Escondidinho» porque este está realmente escondido — e o seu nome já vem de algumas gerações, mais exatamente de 1943. Envolvemos os nossos clientes num ambiente confortável e bonito, através dos sons e cheiros que emanam da cozinha, do revestimento criativo e dos sabores de dar água na boca. Dentro, a música e a calma preparam o espírito para uma refeição que se quer tomada devagar. Duas salas separadas, com um total de 36 lugares no interior. Para acompanhar temos uma boa carta de vinhos e, sempre servidos com um sorriso, aguardamos a sua visita.",
+      "signature": "Leandra Freire",
+      "signatureRole": "Chef & Proprietária",
+      "fact1943": "O nome vem de 1943",
+      "factSeats": "36 lugares · duas salas",
+      "factPalace": "Em frente ao Palácio Nacional"
+    },
+    "signatures": {
+      "eyebrow": "Do menu",
+      "title": "Pratos de assinatura",
+      "cta": "Menu completo"
+    },
+    "wine": {
+      "eyebrow": "Bar & Garrafeira",
+      "quote": "Uma carta de vinhos portugueses, de Lisboa ao Douro — sempre servida com um sorriso.",
+      "cta": "Ver a garrafeira"
+    },
+    "visit": {
+      "eyebrow": "Visite-nos",
+      "title": "Numa travessa escondida, em frente ao Palácio",
+      "addressLabel": "Morada",
+      "phoneLabel": "Telefone",
+      "followUs": "Siga-nos nas redes sociais"
+    }
+  },
+  "menu": {
+    "title": "Menu",
+    "serviceNote": "Almoços de Quarta a Domingo, das 12:00 às 15:30 · Jantares de Quarta a Sábado, das 19:30 às 22:30",
+    "sections": {
+      "starters": {
+        "title": "Entradas",
+        "intro": "Prove as entradas deliciosas do nosso menu, cuidadosamente preparadas para agradar o seu paladar. Prepare-se para fazer uma viagem gastronómica no Escondidinho — e volte sempre para saborear ainda mais."
+      },
+      "fish": {
+        "title": "Peixe",
+        "intro": "Aqui encontra o peixe cuidadosamente preparado para agradar o seu paladar."
+      },
+      "meat": {
+        "title": "Carne",
+        "intro": "Aqui encontra a carne cuidadosamente selecionada para agradar o seu paladar."
+      },
+      "vegetarian": {
+        "title": "Vegetariano",
+        "intro": "Aqui encontra vegetais frescos confecionados cuidadosamente para si."
+      }
+    },
+    "dishes": {
+      "burrata": "Burrata com pão torrado e bacon, regada de azeite trufado e vinagre balsâmico.",
+      "risottoCamarao": "Um prato rico e reconfortante, onde a textura cremosa do risotto se combina na perfeição com a suculência dos camarões.",
+      "bacalhauNatas": "Um clássico da culinária portuguesa: bacalhau desfiado e refogado, envolvido com batatas, molho bechamel e natas. Cremoso e saboroso.",
+      "ovosRotos": "Cama de batata frita, ovos estrelados de gema cremosa, presunto, fiambre e linguiça — uma verdadeira explosão de sabores.",
+      "tagyke": "Uma fusão inspiradora de três influências — taco, gyros e kebab —, daí o seu nome. Prato de assinatura do Chef Hélder, elaborado com peito de frango halal salteado com pimentos e cebola. Acompanha batata frita dourada, salada fresca e um molho de especiarias.",
+      "arrozDePato": "Uma iguaria clássica da culinária portuguesa, finalizada no forno: o arroz ganha uma crosta delicadamente dourada, coberta com fatias de chouriço.",
+      "bifeCortador": "Bife da vazia com ovo a cavalo. Acompanha batata frita.",
+      "bife3Pimentas": "Bife do corte da vazia com molho de três pimentas — verde, rosa e preta. Acompanha batata.",
+      "bifeReducaoVinho": "Bife do corte da vazia com redução de vinhos Madeira e Porto. Acompanha batata e couve-roxa em pickle.",
+      "francesinha": "Camadas de pão de forma recheadas com bife de alcatra, linguiça, fiambre, salsicha toscana e queijo Limiano, cobertas com ovo e regadas com um molho picante especial.",
+      "alhoFrancesBras": "Alho-francês finamente fatiado e refogado com cebola, alho e batata palha, envolvido em ovos batidos e salsa fresca.",
+      "tagykeVegetariano": "A versão vegetariana do nosso prato de assinatura: soja salteada com pimentos e cebola, batata frita dourada, salada fresca e molho de especiarias.",
+      "risottoFunghi": "Cozinhado lentamente em caldo até ficar cremoso e combinado com uma seleção de cogumelos frescos. Sabores delicados e aromáticos."
+    },
+    "legendTitle": "Alergénios e dieta",
+    "allergens": {
+      "gluten": "Glúten",
+      "milk": "Leite",
+      "eggs": "Ovos",
+      "shellfish": "Marisco",
+      "mollusc": "Moluscos",
+      "fish": "Peixe",
+      "nuts": "Frutos de casca rija",
+      "peanut": "Amendoim",
+      "soy": "Soja"
+    },
+    "diet": {
+      "vegan": "Vegan",
+      "vegetarian": "Vegetariano",
+      "glutenFree": "Sem glúten"
+    },
+    "spice": {
+      "1": "Picante suave",
+      "2": "Picante médio"
+    },
+    "allergensNote": "Tem alguma alergia ou restrição alimentar? Diga-nos ao reservar — a cozinha aconselha com todo o gosto.",
+    "barCta": "Veja também o bar & garrafeira"
+  },
+  "bar": {
+    "title": "Bar & Garrafeira",
+    "intro": "Aperitivos para começar, uma carta de vinhos portugueses de Lisboa ao Douro, e digestivos para ficar mais um pouco.",
+    "vatNote": "Preços com IVA incluído à taxa legal em vigor.",
+    "sections": {
+      "aperitifs": "Aperitivos",
+      "waters": "Águas",
+      "softDrinks": "Sumos & Refrigerantes",
+      "beers": "Cervejas",
+      "redWines": "Vinhos Tintos",
+      "whiteWines": "Vinhos Brancos",
+      "greenWines": "Vinhos Verdes",
+      "roseWines": "Vinhos Rosé",
+      "sparkling": "Espumantes",
+      "spirits": "Espirituosas",
+      "whisky": "Whisky",
+      "coffee": "Cafetaria"
+    },
+    "notes": {
+      "wineByGlass": "Vinho a copo — 4,50 € · pergunte à equipa qual o vinho disponível.",
+      "bottleSizes": "Garrafa 750 ml · meia garrafa 375 ml quando indicado."
+    },
+    "menuCta": "Ver o menu de cozinha"
+  },
+  "team": {
+    "title": "A Equipa",
+    "intro": "Sejam bem-vindos! É com muita alegria que vos recebemos — sorria, respire e usufrua da sua experiência aqui no nosso restaurante. Esperamos que esta casa se torne a sua casa de eleição por muitos anos!",
+    "introSignature": "Leandra Freire",
+    "groups": {
+      "kitchen": "Brigada de cozinha",
+      "front": "Sala e bar"
+    },
+    "members": {
+      "leandra": { "role": "Chef & Proprietária" },
+      "dorisa": { "role": "Assistente de cozinha" },
+      "pedro": { "role": "Empregado de balcão" }
+    },
+    "memorial": {
+      "label": "Em memória",
+      "role": "Chef",
+      "body": "Dizem que cozinhar é uma arte e uma paixão. E eu não podia estar mais de acordo: sempre que preparo um prato, faço-o com a mesma vontade que tinha quando comecei a fazer experiências para mim e para os meus amigos. Cozinhar é como pintar um quadro ou compor uma canção — colorir um prato com as cores que a natureza nos dá, e que paleta enorme tenho ao meu dispor todos os dias. Ouvir o som da carne a grelhar, a cebola e os pimentos que saltam na chapa enquanto a carne laminada do tagyke vai ficando dourada, o queijo derretido nas francesinhas quando saem do forno, o odor inconfundível dos grelhados feitos no carvão ou das ervas frescas que refrescam um prato, como pinceladas de tinta. Tanto que se pode fazer com esta vontade de criar, recriar, inovar, sujar as mãos sem medo, sentir os ingredientes, meter a mão na massa. Cozinhar é sempre uma experiência única, que aconselho a todas as pessoas.",
+      "signature": "Hélder Freire"
+    }
+  },
+  "reserve": {
+    "title": "Faça a sua reserva",
+    "intro": "Selecione os seus dados e faremos o possível para escolher o melhor lugar para si.",
+    "form": {
+      "name": "Nome",
+      "namePlaceholder": "O seu nome",
+      "email": "Email",
+      "emailPlaceholder": "o.seu@email.com",
+      "phone": "Telemóvel",
+      "phonePlaceholder": "9XX XXX XXX",
+      "partySize": "Pessoas",
+      "partySizeOption": "{count, plural, =1 {1 pessoa} other {# pessoas}}",
+      "partySizeMore": "Mais de 8 — indique nas notas",
+      "date": "Data",
+      "time": "Hora",
+      "area": "Área preferida",
+      "areaAny": "Qualquer área",
+      "areaUpstairs": "Sala de cima",
+      "areaDownstairs": "Sala de baixo",
+      "areaTerrace": "Esplanada",
+      "notes": "Notas",
+      "notesPlaceholder": "Alergias, ocasiões especiais, cadeira de bebé…",
+      "submit": "Pedir reserva",
+      "submitting": "A enviar…"
+    },
+    "validation": {
+      "name": "Indique o seu nome.",
+      "email": "Indique um email válido.",
+      "phone": "Indique um contacto telefónico.",
+      "date": "Escolha a data.",
+      "dateClosed": "Estamos encerrados nesse dia — escolha de Quarta a Domingo.",
+      "time": "Escolha a hora.",
+      "timeClosed": "Fora do horário de serviço — almoço 12:00–15:30, jantar 19:30–22:30."
+    },
+    "success": {
+      "title": "Pedido enviado",
+      "body": "Recebemos o seu pedido de reserva. A reserva só fica confirmada após o nosso contacto — até já!"
+    },
+    "error": {
+      "title": "Não foi possível enviar",
+      "body": "Algo correu mal ao enviar o pedido. Tente novamente ou ligue-nos: {phone}."
+    },
+    "confirmNote": "A reserva só fica confirmada após o nosso contacto.",
+    "phoneAlt": "Prefere falar connosco?",
+    "hoursTitle": "Horário de serviço"
+  },
+  "footer": {
+    "tagline": "Cozinha de fusão e pratos de assinatura, escondidos em frente ao Palácio Nacional de Mafra desde 2009.",
+    "navTitle": "Navegar",
+    "contactTitle": "Contacto",
+    "hoursTitle": "Horário",
+    "followTitle": "Siga-nos",
+    "copyright": "© 2009–{year} Restaurante Escondidinho · {legalName}",
+    "privacy": "Política de privacidade",
+    "accessibility": "Declaração de acessibilidade"
+  },
+  "notFound": {
+    "title": "Página não encontrada",
+    "body": "Esta página está mesmo escondida — não a encontrámos.",
+    "cta": "Voltar ao início"
+  },
+  "localeSwitcher": {
+    "label": "Idioma",
+    "pt": "Português",
+    "en": "English",
+    "fr": "Français"
+  },
+  "legal": {
+    "privacy": {
+      "title": "Política de Privacidade",
+      "updated": "Última atualização: setembro de 2026",
+      "sections": {
+        "intro": "Esta política descreve como o Restaurante Escondidinho ({legalName}) trata os dados pessoais recolhidos através deste website.",
+        "collectTitle": "Que dados recolhemos",
+        "collect": "Recolhemos apenas os dados que nos envia através do formulário de reserva: nome, email, contacto telefónico, data e hora pretendidas, número de pessoas, área preferida e notas que decida incluir.",
+        "useTitle": "Para que usamos os dados",
+        "use": "Os dados são usados exclusivamente para responder ao seu pedido de reserva e contactá-lo para a confirmar. Não os usamos para marketing, não os partilhamos com terceiros e não criamos perfis.",
+        "storeTitle": "Onde ficam os dados",
+        "store": "O pedido de reserva é-nos entregue por email através do serviço de envio Resend. Não mantemos nenhuma base de dados de clientes neste website e o website não usa cookies de rastreamento.",
+        "rightsTitle": "Os seus direitos",
+        "rights": "Pode pedir-nos, a qualquer momento, o acesso, a correção ou a eliminação dos seus dados. Contacte-nos por email para {privacyEmail} ou por carta para {address}.",
+        "changesTitle": "Alterações a esta política",
+        "changes": "Podemos atualizar esta política quando necessário. As alterações são publicadas nesta página."
+      }
+    },
+    "accessibility": {
+      "title": "Declaração de Acessibilidade",
+      "sections": {
+        "intro": "Esta é a declaração de acessibilidade do website do Restaurante Escondidinho, da responsabilidade de {legalName}.",
+        "commitmentTitle": "O nosso compromisso",
+        "commitment": "Queremos que este website possa ser usado por todas as pessoas. Procuramos cumprir as Diretrizes de Acessibilidade para Conteúdo Web (WCAG) 2.1, nível AA: navegação por teclado, texto alternativo nas imagens, contraste adequado e estrutura semântica das páginas.",
+        "feedbackTitle": "Comentários",
+        "feedback": "Agradecemos os seus comentários sobre a acessibilidade deste website. Se encontrar alguma barreira, diga-nos:",
+        "feedbackPhone": "Telefone: {phone}",
+        "feedbackEmail": "Email: {email}",
+        "feedbackAddress": "Morada: {address}",
+        "response": "Procuramos responder aos comentários no prazo de 2 dias úteis."
+      }
+    }
+  }
+}
